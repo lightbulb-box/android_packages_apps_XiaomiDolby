@@ -266,7 +266,6 @@ class DolbySettingsFragment : PreferenceFragment(),
         // below prefs are not enabled on loudspeaker
         if (isOnSpeaker) {
             stereoPref.summary = headphoneRes
-            bassPref.summary = headphoneRes
             hpVirtPref.summary = headphoneRes
             return
         }
