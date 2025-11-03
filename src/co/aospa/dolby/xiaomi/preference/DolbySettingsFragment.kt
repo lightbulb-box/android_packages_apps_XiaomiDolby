@@ -233,7 +233,6 @@ class DolbySettingsFragment : PreferenceFragment(),
         resetPref.setEnabled(enable)
         hpVirtPref.setEnabled(enable && !isOnSpeaker)
         stereoPref.setEnabled(enable && !isOnSpeaker)
-        bassPref.setEnabled(enable && !isOnSpeaker)
 
         if (!enable) return
 
